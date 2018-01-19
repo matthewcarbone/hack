@@ -11,6 +11,18 @@ def poly(x, c, method):
     setting of variable 'method'. The order of the polynomial is given by
     the length of c minus 1, since we must account for the constant
     coefficient.
+
+    :Input:
+        - x (int, float) value to evaluate the function at
+        - c (list) coefficients, note the order
+        - method (string) choice of method
+
+    :Raises:
+        - ValueError if method isn't 'horner' or 'bruteforce'
+
+    :Output:
+        - Value of the polynomial at point x
+
     """
 
     xx = 0.0
