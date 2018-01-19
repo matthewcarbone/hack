@@ -67,7 +67,7 @@ def area_of_circle(r, N):
     # the area of a square of side length s is s^2, so s^2*hits/N should
     # provide the area of the circle since hits/N is the ratio of the two areas
 
-    return s*s*hits/N
+    return hits/N*s*s
 
 
 def order(xx, er, o):
@@ -156,8 +156,6 @@ def main():
     for i in range(0, len(x)):
         print("%E | %f" % (x[i], y[i]))
     print("\n")
-
-
 
 
 if __name__ == '__main__':
