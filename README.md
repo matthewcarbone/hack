@@ -6,7 +6,7 @@ This will/can serve as a collaborative repository for any students who wishes to
 
 ---
 Here is a quick user-friendly (I hope) guide to using git.
-1. [https://help.github.com/articles/signing-up-for-a-new-github-account/](Create a github account.) Note that it is free to have a github account in general and contribute to public repositories (open source), and students can use the fully functional git/github functionality for free (meaning you can use private repositories that are available only to you).
+1. [Create a Github account.](https://help.github.com/articles/signing-up-for-a-new-github-account/) Note that it is free to have a github account in general and contribute to public repositories (open source), and students can use the fully functional git/github functionality for free (meaning you can use private repositories that are available only to you).
 2. Download git (google "download git")
 3. Now you can begin contributing to a public repo. First, navigate to a repo you want to contribute to, and click the **Fork** button on the top right hand of the page. This will essentially make a copy of the repo on your account. This creates the **origin** (online) location of your repo.
 4. Open terminal and navigate to the directory you want to put your local copy of the repo. For instance, ```cd ~/Desktop```. Then, use the command ```git clone [repo name here]```. For example, if I wanted to clone my repository to my local machine, I would run the command ```git clone https://github.com/x94carbone/hack.git```, which will create a directory called ```hack``` in whatever location I navigated to. 
