@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>hillsHacks</title>
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	 crossorigin="anonymous">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+
+	<style>
+		a[href*="000webhost"] {
+			display: none;
+		}
+
+		.btn-primary,
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary:visited {
+			background-color: #FAD904 !important;
+			border-color: #FAD904 !important;
+			color: black !important;
+		}
+		.linkToWorkshop {
+			color: black !important;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar fixed-top navbar-expand-md navbar-dark darkgray">
+		<a class="navbar-brand icon smoothScroll" href="#home">
+			<img src="img/WH_Mascot.gif" width="30" height="30" alt="WH Mascot">
+		</a>
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="icon-bar top-bar"></span>
+			<span class="icon-bar middle-bar"></span>
+			<span class="icon-bar bottom-bar"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav  mx-auto">
+				<li class="nav-item one">
+					<a class="nav-link smoothScroll" href="#about">About</a>
+				</li>
+				<li class="nav-item two">
+					<a class="nav-link smoothScroll" href="#register">Register</a>
+				</li>
+				<li class="nav-item three">
+					<a class="nav-link smoothScroll" href="#FAQ">FAQ</a>
+				</li>
+				<li class="nav-item four">
+					<a class="nav-link smoothScroll" href="#contactUs">Contact Us</a>
+				</li>
+				<li class="nav-item five">
+					<a class="nav-link smoothScroll" href="#schedule">Schedule</a>
+				</li>
+				<hr class="slide">
+			</ul>
+		</div>
+	</nav>
+	<a name="home"></a>
+	<div class="container-fluid home deadCenter bg-image alignCenter" >
+		<img class="logo fadeIn animated wow" src="img/hillsHacksLogo.png"   alt="hillsHacks Logo">
+		<h1 id="" class = "text-center fadeIn animated wow" style="color: #EEE">- Building Connections -</h1>
+		<br/>
+		<div id = "clock" class = "text-center text-white countdown fadeIn animated wow"></div>
+		<br/>
+		<br/>
+	<div class = "row">
+		<div class = "col-4">
+		<button id = "register_button" type="button" class="btn btn-primary btn-lg fadeInDown animated wow">Register!</button>
+		</div>
+		<div class = "col-8">
+		<a class = "smoothScroll" href = "#schedule"><button type = "button" class = "btn btn-secondary btn-lg fadeInDown animated wow">See the schedule</button></a>
+		</div>
+	</div>
+	</div>
+	<div class="container-fluid">
+		<a class="anchor first" name="about"></a>
+		<div class="row justify-content-center">
+			<div class="col-md-5 deadCenter text">
+				<img class="img-fluid fadeInUp animated wow" src="img/eventPhoto.jpg">
+				<br>
+				<img class="img-fluid fadeInUp animated wow" src="img/ppl.png" >
+			</div>
+			<div class="col-md-5 text fadeInUp animated wow">
+				<h1 class=" display-4 mb-4 alignCenter adjustLeft">Computer Science Is <u>Not</u> About Coding</h1>
+				<p>What’s a common thought about computer science? Computer science is HARD, it's BORING, it’s for NERDS who like typing a bunch of COMPLICATED SYMBOLS on their computers. But as it turns out, <i>NONE OF THESE  MISCONCEPTIONS</i> could be further than the truth! </p>
+				<p>CS is for INNOVATORS. For CREATORS. For PROBLEM SOLVERS. For people who want to make a DIFFERENCE in their communities.</p>
+				<p><i>Watchung Hill's 3rd annual hackathon is an event focused on more than learning how to code.</i></p>
+				<p>We intend to inspire attendees; they will see firsthand how musicians, chemists, and artists are using CS as a powerful tool.  Through our diverse selection of 12 <u>workshops</u>, including our <u>escape room</u>, participants will test their abilities to think creatively and work with a team. In our <u>design contest</u>, ideas to change the world will be celebrated and rewarded (with generous prizes!).</p>			</div>
+		</div>
+		<a class="anchor second" name="register"></a>
+		<div class="row justify-content-center gray">
+			<div class="col-md-5 text fadeInUp animated wow">
+				<h1 class="display-4 alignCenter adjustLeft ">Register</h1>
+				<br/>
+				<p>Yes, registration costs $20 but includes <u>lunch & dinner</u>, a <u>custom t-shirt</u>, and the chance to win <u>cash prizes!</u>
+					Please complete <b>online registration and payment by clicking below.</b></p>
+				<!--<font color="red">Sign ups will close May 1st!</font>-->
+				<div class="alignCenter">
+						<br/>
+						<button onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSd7IWauTmeMEYhx9r_T1frZmgSeq-B7zw0km2UfHAHORTX2qQ/viewform';" type="button" class="btn btn-primary " id = "register_button">Sign me up!</button>
+				</div>
+				<br/>
+				<br/>
+					<p><i>If you are not redirected to the google form, try this link: </i><a href = "https://docs.google.com/forms/d/e/1FAIpQLSd7IWauTmeMEYhx9r_T1frZmgSeq-B7zw0km2UfHAHORTX2qQ/viewform">Hackathon Google Form</a></p>
+
+			</div>
+			<div class="col-md-5 deadCenter text fadeInUp animated wow fadeInUp">
+				<img class="img-fluid" src="img/eventPhoto1.jpg">
+			</div>
+		</div>
+		<a class="anchor third" name="FAQ"></a>
+		<div class="row justify-content-center fadeInUp animated wow">
+			<div class="col-md-10 text">
+				<h1 class="display-4 mb-4 alignCenter">FAQ</h1>
+				<h4>Why come to hillsHacks?</h4>
+				<p>Can you spend a day without using some form of technology developed in the last 5 years? It would probably be difficult - technology has completely changed the way we live our lives. Regardless of your experience, you will learn something new at hillsHacks about how computer science is being used all around us - often in things we take for granted! All students grade 6 and up are welcome.</p>
+				<h4>What if I don’t know anything about coding or computer science?</h4>
+				<p>No problem. We love beginners! There's a lot to learn at hillsHacks, and we hope you will leave inspired.</p>
+				<h4>I’m an expert at coding. What do I get out of this event?</h4>
+				<p>Take a look at some of our advanced workshops like "Intro to Functional Programming", "Problem Solving with CS", and "Introduction to Basic Algorithms: Unraveling Fibonacci Numbers"!</p>
+				<h4>This sounds like a long day, will there be food?</h4>
+				<p>Of course! All participants will be given lunch and dinner. Snacks will also be available throughout the day.</p>
+				<h4>Do I need to bring my own computer?</h4>
+				<p>You are welcome to bring own computer. If you forget yours, don't worry, we have Chromebooks for everyone to use!</p>
+				<h4>Sounds great! Where is it?</h4>
+				<p>It's at Watchung Hills Regional High School,
+				<a href="https://www.google.com/maps/place/108+Stirling+Rd,+Warren,+NJ+07059/">108 Stirling Rd, Warren, NJ 07059</a>. You should enter through the main entrance at the front of the school.</p>
+			</div>
+		</div>
+		<a class="anchor fourth" name="contactUs"></a>
+		<div class="row justify-content-center gray">
+			<div class="col-md-10 text fadeInUp animated wow">
+				<h1 class="display-4 mb-4 alignCenter">Contact Us</h1>
+				<p align="center">If you have any questions or concerns, please contact</p>
+				<p align="center">Mr. Twisler at <b><a href="mailto:dtwisler@whrhs.org">dtwisler@whrhs.org</a></b>,
+					Jagdeep at <b><a href="mailto:200430@whrhs-stu.org">200430@whrhs-stu.org</a></b>,
+					or Mayur at <b><a href="mailto:204670@whrhs-stu.org">204670@whrhs-stu.org.</a></b></p>
+			</div>
+		</div>
+		<a class="anchor fifth" name="schedule"></a>
+		<div class="row justify-content-center">
+			<div class="col-md-10 text">
+				<h1 class="display-4 mb-4 alignCenter fadeInUp animated wow">Schedule</h1>
+				<div class="row justify-content-center">
+					<div class="table-responsive fadeInUp animated wow">
+						<table class="table table-bordered " id="schedule">
+							<!--<thead>
+								<th class="gold">Time</th>
+								<th class="gold">11:00</th>
+								<th class="gold">11:30</th>
+								<th class="gold">12:00</th>
+								<th class="gold">12:30</th>
+								<th class="gold">1:00</th>
+								<th class="gold">1:30</th>
+								<th class="gold">2:00</th>
+								<th class="gold">2:30</th>
+								<th class="gold">3:00</th>
+								<th class="gold">3:30</th>
+								<th class="gold">4:00</th>
+								<th class="gold">4:30</th>
+								<th class="gold">5:00</th>
+								<th class="gold">5:30</th>
+							</thead> -->
+							<tbody>
+								<tr>
+									<th class="gold text-center">11:00-11:30</th>
+									<td class="p-0 text-center gray" colspan="6" data-toggle="modal" data-target="#registration">
+										<div class="h5 card-body">Registration</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="gold text-center">11:30-12:00</th>
+									<td class="p-0 text-center" colspan="6" data-toggle="modal" data-target="#openingceremony">
+										<div class="h5 card-body">Opening Ceremony</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="gold text-center">12:00-12:30</th>
+									<td class="p-0 text-center gray" colspan="6" data-toggle="modal" data-target="#lunch">
+										<div class="h5 card-body">Lunch</div>
+									</td>
+								</tr>
+								</tr>
+								<tr>
+									<th class="gold text-center">&nbsp;</th>
+									<td class="p-0 text-center" data-toggle="modal" data-target="#workshops" colspan="6">
+										<div class="h5 card-body">Workshops</div>
+										<p>Click on any workshop to see a description.  Descriptions of all workshops are found below the schedule.</p>									</td>
+								</tr>
+								<tr>
+									<th class="gold text-center">&nbsp;</th>
+									<td class="p-0 text-center">
+										<div class="card-header">Room 1</div>
+									</td>
+									<td class="p-0 text-center">
+										<div class="card-header">Room 2</div>
+									</td>
+									<td class="p-0 text-center">
+										<div class="card-header">Room 3</div>
+									</td>
+									<td class="p-0 text-center">
+										<div class="card-header">Room 4</div>
+									</td>
+									<!--<td class="p-0 text-center">
+										<div class="card-header">Room 24</div>
+									</td>
+									<td class="p-0 text-center">
+										<div class="card-header">South&nbsp;Cafeteria</div>
+									</td>-->
+								</tr>
+								<tr>
+									<th class="gold text-center">12:30-1:30</th>
+									<td class="p-0 text-center" >
+										<div class="h6 card-body" >Artificial Intelligence</div>
+									</td>
+									<td class="p-0 text-center"  data-target="#mcarbone">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#introToBasicAlg">Intro to Basic Algorithms</a></div>
+
+									</td>
+									<td class="p-0 text-center"  data-target="javaintro">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#introToJava">Intro to Java</a></div>
+									</td>
+									<td class="p-0 text-center"  data-target="#escaperoomBody">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#escaperoomBody">Escape Room</a></div>
+									</td>
+									<!--<td class="p-0 text-center" data-toggle="modal" data-target="#space">
+										<div class="h6 card-body advanced">Coding in Space</div>
+									</td>
+									<td class="p-0 text-center">
+										<div class="h6 card-body">&nbsp;</div>
+									</td>-->
+								</tr>
+								<tr>
+									<th class="gold text-center">1:30-2:30</th>
+									<td class="p-0 text-center"  data-target="#girlsWhoCode">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#womenInCS">Women in CS</a></div>
+									</td>
+									<td class="p-0 text-center" data-target="#mcarbone">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#myStory">My Story: From Chem to Machine Learning</a></div>
+
+									</td>
+									<td class="p-0 text-center"  data-target="#videoGameDesign">
+										<div class="h6 card-body">Video Game Design</div>
+									</td>
+									<td class="p-0 text-center"  data-target="#escaperoom">
+										<div class="h6 card-body advanced"><a class = "smoothScroll linkToWorkshop" href = "#escaperoomBody">Escape Room</a></div>
+									</td>
+									<!--<td class="p-0 text-center" data-toggle="modal" data-target="#webdev">
+										<div class="h6 card-body advanced">Intro to Functional Programming</div>
+									</td>
+									<td class="p-0 text-center">
+										<div class="h6 card-body">&nbsp;</div>
+									</td>-->
+								</tr>
+								<tr>
+									<th class="gold text-center">2:30-3:30</th>
+									<td class="p-0 text-center" data-toggle="modal" data-target="#dataScience">
+										<div class="h6 card-body">Data Science</div>
+									</td>
+									<td class="p-0 text-center" data-toggle="modal" data-target="#lamson">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#designSpace">Design Space</a></div>
+									</td>
+									<td class="p-0 text-center" data-toggle="modal" data-target="#problemSolving">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#problemSolvingWithCS">Problem Solving with CS</a></div>
+									</td>
+									<td class="p-0 text-center" data-toggle="modal" data-target="#escaperoom">
+										<div class="h6 card-body advanced"><a class = "smoothScroll linkToWorkshop" href = "#escaperoomBody">Escape Room</a></div>
+									</td>
+									<!--<td class="p-0 text-center" data-toggle="modal" data-target="#whycsisimportant">
+										<div class="h6 card-body advanced">Music + Coding</div>
+									</td>
+									<td class="p-0 text-center" data-toggle="modal" data-target="#robotics">
+										<div class="h6 card-body">Robotics</div>
+									</td>-->
+								</tr>
+								<tr>
+									<th class="gold text-center">3:30-4:30</th>
+									<td class="p-0 text-center"  data-target="#musicAndCoding">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#musicAndCoding">Music + Coding</a></div>
+									</td>
+									<td class="p-0 text-center"  data-target="#presentationSkills">
+										<div class="h6 card-body advanced">Presentation Skills</div>
+									</td>
+									<td class="p-0 text-center"  data-target="#introToFunctionalProgramming">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#functionalProgramming">Intro to Functional Programming</a></div>
+									</td>
+									<td class="p-0 text-center"  data-target="#escaperoom">
+										<div class="h6 card-body"><a class = "smoothScroll linkToWorkshop" href = "#escaperoomBody">Escape Room</a></div>
+									</td>
+									<!--<td class="p-0 text-center" data-toggle="modal" data-target="#latexandmath">
+										<div class="h6 card-body advanced">LaTeX and Math</div>
+									</td>
+									<td class="p-0 text-center" data-toggle="modal" data-target="#robotics">
+										<div class="h6 card-body">Robotics</div>
+									</td>-->
+								</tr>
+								<tr>
+									<th class="gold text-center">4:30-5:30</th>
+									<td class="p-0 text-center gray" colspan="6" data-toggle="modal" data-target="#designsession">
+										<div class="h5 card-body">Dinner and Design</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="gold text-center">5:30-6:00</th>
+									<td class="p-0 text-center" colspan="6" data-toggle="modal" data-target="#presentations">
+										<div class="h5 card-body">Presentations</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="gold text-center">6:00-6:30</th>
+									<td class="p-0 text-center gray" colspan="6" data-toggle="modal" data-target="#closings">
+										<div class="h5 card-body">Closings</div>
+									</td>
+								</tr>
+								<!--<tr>
+									<td class="p-0 text-center">
+										<div class="card-header">Advanced</div>
+										<div class="h6 card-body">Learn F#!</div>
+									</td>
+									<td class="p-0 text-center">
+										<div class="card-header">Pro</div>
+										<div class="h6 card-body">Learn CoffeeScript!</div>
+									</td>
+									<td></td>
+									<td></td>
+									<td class="p-0 text-center" colspan="3">
+										<div class="card-header">Next Lvl</div>
+										<div class="h6 card-body">Learn Whitespace!</div>
+									</td>
+									<td class="p-0 text-center">
+										<div class="card-header">Fun</div>
+										<div class="h6 card-body">Make Games!</div>
+									</td>
+								</tr> -->
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<!-- Modals – These are the popup windows to describe the workshops -->
+				<!--<div class="modal fade" id="escaperoom" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+						</div>
+						<div class="modal-body">
+						<p>hihihihi</p>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						  <button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				<div class="modal fade" id="pythonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Intro to Python</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Python is a simple and easy to understand yet powerful programming language
+							 used by people of a wide variety of professions.
+							In this workshop, you will be introduced to the basics of the Python programming language.
+						</div>
+						<div class="modal-body">
+							<i>Room 20</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Please arrive on time!
+						</div>
+						<div class="modal-body">
+							<i>Front of School</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="openingceremony" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Opening Ceremony</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							hillsHacks begins with an opening ceremony in the PAC.
+							Our panel of CS experts will be ready to answer any questions you have about computer science in high school, college, or even in the workplace.
+						</div>
+						<div class="modal-body">
+							<i>Performing Arts Center (PAC)</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="bananaphysics" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Banana Physics</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Physics is hard. Theoretical physics is even harder.
+							Thankfully, Adnan Contractor knows how to explain mind-boggling concepts like quantum mechanics
+							and particle physics using monkeys, banana trees, and banana smoothies.
+							Come and learn about physics as Adnan talks about his new book, <i>Banana Physics</i>.
+						</div>
+						<div class="modal-body">
+							<i>Room 21</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="lunch" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Lunch</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Food is served :D
+						</div>
+						<div class="modal-body">
+							<i>TBD</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="sphero" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Sphero</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Sphero BOLT’s eye-catching, programmable 8x8 light matrix opens up an endless array of coding and
+							gaming capabilities. In this workshop students will use advanced sensors to track speed, acceleration,
+							and direction. Students will use the Sphero EDU App to program the BOLT. Intermediate coders can use
+							code blocks to learn while more advanced students can use Javascript to code. Students will solve
+							several challenges such as changing the matrix animation to display a word or picture, code the BOLT to
+							move forward and return, program BOLT to create a square. What happens when you start adding sides
+							to that square? How would you program a hexagon or even a tridecagon (13 sided polygon)? The
+							possibilities are endless!
+						</div>
+						<div class="modal-body">
+							<i>Room 21</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="microbit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Micro:bits</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							micro:bit is a tiny programmable computer, designed to make learning and teaching easy and fun. In
+							this workshop students have an opportunity to code in Microsoft’s Makecode and then run that
+							program on a micro:bit and see it come to life. For beginners, block coding is available. For more
+							advanced students, they can program in JavaScript. The micro:bit has LEDs, buttons, accelerometer,
+							light sensor and more to program. For beginners there are tutorials to code a flashing heart, a name
+							tag, create a rock paper scissors game and more. Students will code loops, conditionals, explore inputs,
+							random and variables.
+						</div>
+						<div class="modal-body">
+							<i>Room 21</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="videogames" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Making Video Games</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Like playing video games? Check out what Calvin and Jagdeep have been working
+							on and learn how to program games of your own.
+						</div>
+						<div class="modal-body">
+							<i>Room 22</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="robotics" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Robotics</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Learn about the WHRHS robotics team and watch them show off their competition robot.
+						</div>
+						<div class="modal-body">
+							<i>South Cafeteria</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="space" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Coding in Space</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Space Debris is an increasingly difficult challenge for future space exploration.
+							 Watch Jagdeep and Mayur present their work on how they tackled this problem as part of
+							 the Zero Robotics competition.
+						</div>
+						<div class="modal-body">
+							<p class="redText">This is an advanced workshop.</p>
+						</div>
+						<div class="modal-body">
+							<i>Room 24</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="latexandmath" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">LaTeX</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Have you ever wondered how mathematicians and scientists write research
+							papers with lots of complex expressions?
+                            Learn how you can do more complex math and express it with online LaTeX software.
+						</div>
+						<div class="modal-body">
+							<p class="redText">This is an advanced workshop.</p>
+						</div>
+						<div class="modal-body">
+							<i>Room 24</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="webdev" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Website Design</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Come discover the fascinating features one can add to a website through HTML, CSS, and Javascript!
+							Here, we take a template website and spice it up with animated features that you'll find only on the most advanced websites on the internet.
+							It is highly recommended that you are thoroughly fluent in HTML, CSS, and Javascript before undertaking this workshop.
+							Also, make sure to bring a computer with a text editor of your choice installed (that supports HTML, CSS, and JS editing).
+						</div>
+						<div class="modal-body text-center">
+							<a href="webDesign.html" target="_blank">Here is the template</a>
+						</div>
+						<div class="modal-body">
+							<p class="redText">This is an advanced workshop.</p>
+						</div>
+						<div class="modal-body">
+							<i>Room 24</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="whycsisimportant" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Why CS is important</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Learn why computer science and technology are changing the way we think about problems, designs, and the world.
+						</div>
+						<div class="modal-body">
+							<p class="redText">This is an advanced workshop.</p>
+						</div>
+						<div class="modal-body">
+							<i>Room 24</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="chemistrytomachinelearning" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">My Story: From Chemistry to Machine Learning</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>Matthew Carbone, a Ph.D. student at Columbia University, will talk about his journey from WHRHS to Columbia. Many students, if they are like Matthew, probably believe that the learning curve is too steep to get into coding and do it professionally. Matthew will discuss how although he has not had a formal CS/coding education, he still was still able to become fluent in Python and C++, understand how to write distributable software, and self-teach himself machine learning.<p/>
+							This will be code-lite workshop and could serve more as a discussion than anything else. The bottom line is that Matthew wants people to know that if students want to do science, computer science or anything in between, they certainly can regardless of their current experience level.
+						</div>
+						<div class="modal-body">
+							<i>Room 23A</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="publicspeaking" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Nailing the Hackathon Pitch</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							You’ve created an amazing Hackathon product.
+							How will you pitch it to the judges to make the best impression?
+							You’ll need to get their attention and sell them on you and your idea.
+							Pitching to them in the right way separates you from all others.
+							This workshop will help you develop an awesome presentation.
+							Learn tips on what to include, what to leave out, and how to create a succinct, informative, and successful pitch.
+						</div>
+						<div class="modal-body">
+							<i>Room 22</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="designsession" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Design Session</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							 Form a team with other participants
+							 and come up with a innovative idea/product that fits into our theme of “Coding the Classroom!”
+						</div>
+						<div class="modal-body">
+							<i>TBD</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="presentations" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Presentations</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Present your ideas from the design session. Prizes will be awarded to the best presentations!
+						</div>
+						<div class="modal-body">
+							<i>Performing Arts Center (PAC)</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="closings" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Closings</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							The award ceremony and closing.
+						</div>
+						<div class="modal-body">
+							<i>Performing Arts Center (PAC)</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="girlswhocode" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Girls Who Code</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Workshop run by the HackHERS at Rutgers. To be updated.
+						</div>
+						<div class="modal-body">
+							<i>Room 23A</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="efficiencyinpython" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Introduction to Scaling and Efficiency in Python and NumPy</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							Intended for beginners in Python and coding in general, this workshop will focus on some more
+							conceptual aspects of computer coding. Namely, how should one code when using Python? Why are
+							for-loops to be avoided at all costs, and how can Numpy, and pure Python operations, be used to speed up
+							your code. Essentially, Python is a very slow language. So why is it not only the fastest growing, but used
+							in computational fields such as machine learning, where speed and efficiency are paramount?
+						</div>
+						<div class="modal-body">
+							<p class="redText">This is an intermediate workshop.</p>
+						</div>
+						<div class="modal-body">
+							<i>Room 23A</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="github" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Git, GitHub and Version Control</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							An introduction to the awesome power that is Git and why you should be using version control
+							for everything you do in the coding world. Here, we will discuss the Git workflow, importance of
+							branching, the concept of merging branches and how to work together as a team on a software project.
+							The focus will be on the bare basics, because Git is an immensely large tool with so many features it will
+							be impossible to cover even a small fraction of them in an hour. In addition, GitHub offers an
+							unbelievably useful array of tools to help you write clean, well-tested code e.g. Travis Continuous
+							Integration. We will discuss all of this here, and while Python will be the language of choice, the
+							discussion is general to any language. More likely than not, this will be a live coding demonstration.
+						</div>
+						<div class="modal-body">
+							<p class="redText">This is an advanced workshop.</p>
+						</div>
+						<div class="modal-body">
+							<i>Room 23A</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="mlcatandmice" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Machine Learning for Cats and Mice</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							In this workshop, learn how to set up your own neural network using tensorflow.
+						</div>
+						<div class="modal-body">
+							<p class="redText">This is an advanced workshop.</p>
+						</div>
+						<div class="modal-body">
+							<i>Room 21</i>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn gold" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="alignCenter">
+						<h4> General Events </h4>
+						<img class="img-fluid" src="img/general events.png" width="400"> <br/>
+						<br/>
+						<br/>
+						<h4> Workshop Schedule </h4>
+						<img class="img-fluid" src="img/workshop 1.png" width="400"> <br/>
+						<img class="img-fluid" src="img/workshop2.png" width="400">
+						<br/>
+						<br/>
+						<h4> Pathways </h4>
+						<p>These are suggestions (not mandatory at all) of how to navigate the day</p>
+						<img class="img-fluid" src="img/pathways.png" width="400"> <br/>
+						<br/>
+						<br/>
+						<h4> Schedule Visualization </h4>
+						<img class="img-fluid" src="img/hillshacks schedule.png" width="1000">
+				</div>-->
+				<a class = "anchor" name = "escaperoomBody"></a><BR>
+				<div class="card aniamted wow zoomIn">
+				<div class="card-body" >
+						<h5 class="card-title">Escape Room</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Led by Jagdeep Bhatia</h6>
+						<p class = "card-text">Computer science is not all about coding (trust me - coding is the easy part!) Rather, strong computer scientists have great teamwork and problem-solving skills, and can “think outside the box”. For this escape room, you’ll have 50 minutes to search c0mrade’s office (he’s an evil hacker), break into his computer, and secure the evidence of his latest hacking crimes all before c0mrade comes back from his lunch break. Good luck solving the puzzles and have fun! Note: Max 8 people per room. Registration on a first-come-first-serve basis on day of event.</p>
+					</div>
+				</div><a class = "anchor" name = "musicAndCoding"></a><br>
+				<div class="card aniamted wow zoomIn">
+					<div class="card-body">
+						<h5 class="card-title">Music + Coding</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Led by Mariam Contractor</h6>
+						<p class = "card-text">Composing and creating music of all kinds through coding is a beautiful way to bridge music and computer science together. In this workshop, we’ll be focusing on coding and music at simple levels, with no music nor coding experience required, using websites like Scratch, which allow you to upload sounds at specific intervals and beats. However, you’ll also be learning about how much this music grows with the introduction of machine learning. This workshop connects two seemingly opposite ends of the spectrum, and you’ll learn about the inevitable future of music. 					</div>
+				</div><a class = "anchor" name = "myStory"></a><br>
+					<div class="card aniamted wow zoomIn">
+						<div class="card-body">
+							<h5 class="card-title">My Story: From Chemistry to Machine Learning</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Led by Matt Carbone</h6>
+							<p class = "card-text">I will talk about my journey from WHRHS to graduate a student at Columbia. Many students, if they are like me, at least, probably believe that the learning curve is too steep to get into coding professionally. It might be helpful to hear that I have not had a formal CS/coding education, and how I got to the point where I am fluent in Python, C and C++, understand how to write distributable software, and how I self-taught myself machine learning. This will be code-lite and could serve more like a discussion than anything else. It’ll be a chance to really have a discussion. I want people to know that if they want to do science, computer science or anything in between, they certainly can regardless of their current experience level.
+							</div>
+				</div>
+				<a class = "anchor" name = "functionalProgramming"></a><br>
+				<div class="card aniamted wow zoomIn">
+					<div class="card-body">
+						<h5 class="card-title">Introduction to Functional Programming</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Led by Jared Pincus</h6>
+						<p class = "card-text">If you began learning to code with a language like Python, C++, or Java, you’ve been using the “imperative programming” paradigm whether you realize it or not. But did you know there are other ways to construct programs? Namely, “functional programming”! Functional programming (FP) is deeply rooted in the foundations of computer science way back in the 1950s, and to this day it remains an essential tool for the CS field. This workshop will expose you to the principles and uses of FP with some simple coding in the Scheme programming language, offering a different perspective on programming from the usual introductory CS curriculum.
+						</p>
+					</div>
+				</div>
+				<a class = "anchor" name = "introToJava"></a><br>
+				<div class="card aniamted wow zoomIn">
+					<div class="card-body">
+						<h5 class="card-title">Introduction to Java</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Led by Jay Fu and Bryan Shangguan</h6>
+						<p class = "card-text">Java is one of the most widely used programming languages.  It is used in mobile apps, web applications, and in GUI (graphical user interface) applications. In this beginner’s workshop, you will learn the basic fundamentals of Java including Strings, variables, output statements, if statements, Scanner input, and arithemtic operators.  There will be challenges and exercises throughout the workshop that will help make learning Java interactive and fun.
+						</p>
+					</div>
+				</div>
+				<a class = "anchor" name = "problemSolvingWithCS"></a><br>
+				<div class="card aniamted wow zoomIn">
+					<div class="card-body">
+						<h5 class="card-title">Problem Solving with CS</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Led by Mayur Sharma</h6>
+						<p class = "card-text">As humans, we use games like Tic Tac Toe, Checkers, Sudoku, Chess, and Go to pass the time or compete against one another. But how do computers interpret these games and learn 'strategy'? This workshop will focus on algorithms used to solve these problems and present different methods of systematically solving complex problems.</p>
+					</div>
+				</div>
+				<a class = "anchor" name = "womenInCS"></a><br>
+				<div class="card aniamted wow zoomIn">
+					<div class="card-body">
+						<h5 class="card-title">Women in CS</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Led by Mariam Contractor</h6>
+						<p class = "card-text">Computer science is a relatively recent field that truly got started in the latter half of the twentieth century. As more and more students decide to pursue C.S., there seems to be a notable lack of the majority of the world’s population: women. Women only earned 18% of all computer science degrees in 2015, and that’s only the first of many eye-opening statistics that display the gender disparity in computer science. This workshop is geared towards any computer science learner--from beginner to master coder--and how to crack the code (pun intended) on engaging more women in computer science.
+						</div>
+			</div>
+			<a class = "anchor" name = "introToBasicAlg"></a><br>
+				<div class="card aniamted wow zoomIn">
+					<div class="card-body">
+						<h5 class="card-title">Introduction to Basic Algorithms: Unraveling Fibonacci Numbers</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Led by Matt Carbone</h6>
+						<p class = "card-text">Central to computer science is the algorithm, which can be simply defined as a set of rules to be followed during a calculation. They form the foundation of essentially all of the technological infrastructure you use in your everyday life, and if you want to study computer science, you will need to master them. In this workshop, I will demonstrate and explain a variety of algorithms used to compute Fibonacci numbers (and there are a ton of them). We will also cover a variety of important related concepts, like computational complexity, which are key to any computer science degree in college.
+						</div>
+			</div>
+			<a class = "anchor" name = "designSpace"></a><br>
+				<div class="card aniamted wow zoomIn">
+					<div class="card-body">
+						<h5 class="card-title">Design Space</h5>
+						<p class = "card-text">This is a place where you can get started on your design project for the HillsHacks design contest early.  Daniel Lamson, a member of the WHRHS computer science faculty, will be available to help anyone on their design project.
+
+						</div>
+			</div>
+		</div></div>
+		<div class="container-fluid row footer justify-content-center darkgray">
+			<div class="text whiteText alignCenter">
+				<p>&#169; Copyright 2020 Watchung Hills Regional High School Computer Science Club</p>
+			</div>
+		</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+  <script>
+	  new WOW().init();
+	</script>
+  <script>
+    $(function () {
+      $('#clock').countdown('2020/2/23').on('update.countdown', function(event) {
+        var $this = $(this).html(event.strftime(''
+          + '<span class="h1 font-weight-bold">%D</span> Days'
+          + '<span class="h1 font-weight-bold">%H</span> Hr'
+          + '<span class="h1 font-weight-bold">%M</span> Min'
+          + '<span class="h1 font-weight-bold">%S</span> Sec'));
+      });
+    });
+  </script>
+	<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>-->
+</body>
+</html>
+<!--2019 changes by Jagdeep Bhatia -->
+<!--2020 changes by Ronald Leung (hi!!)-->
