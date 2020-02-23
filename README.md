@@ -52,6 +52,6 @@ Possible projects:
 - Simulate situations of social privilege
 - Voting systems. Introduce several electoral systems (D'Hondt, Hare-Niemeyer, Sainte-Laguë, or even sorted by country), and show that no matter what you choose there will always be something wrong.
 
-
+##Jagdeep was here
 
 
