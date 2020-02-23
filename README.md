@@ -30,7 +30,7 @@ You're now ready to make local changes to the repo. This is done via branching. 
 
 Now you can actually do your own coding and modifications to the program. Every time you make an upgrade/modification to one of the files in the repository (let's say ```file.py```), you should
 1. Stage the change with ```git add file.py```.
-2. Commit the change ```git commit -m"Short message describing the commit"```. Make sure you commit often and follow proper protocol when writing commit messages. 
+2. Commit the change ```git commit -m "Short message describing the commit"```. Make sure you commit often and follow proper protocol when writing commit messages. 
 3. Push the change to ```git push``` to upload the changes to your repository (the origin master, owned by you, not the upstream master).
 
 
