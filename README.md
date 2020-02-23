@@ -44,13 +44,13 @@ When you're done with your modifications, you're ready to open a **pull request*
 4. Once the merge is accepted, you're done! 
 
 
-## Suggestions for Prof. M. Carbone
+## Suggestions for future projects
 
 Possible projects:
-- simulate some gambling games, and show the net effect on the long run on the population, and even on winning individuals. Possibly compare with basic results from probability theory.
-- make some simple fun questions from propability theory. Give the analytical result. Check the result numerically.
-- simulate situations of social privilege
-- voting systems. Introduce several electoral systems (D'Hondt, Hare-Niemeyer, Sainte-Laguë, or even sorted by country), and show that no matter what you choose there will always be something wrong.
+- Simulate some gambling games, and show the net effect on the long run on the population, and even on winning individuals. Possibly compare with basic results from probability theory.
+- Make some simple fun questions from propability theory. Give the analytical result. Check the result numerically.
+- Simulate situations of social privilege
+- Voting systems. Introduce several electoral systems (D'Hondt, Hare-Niemeyer, Sainte-Laguë, or even sorted by country), and show that no matter what you choose there will always be something wrong.
 
 
 
