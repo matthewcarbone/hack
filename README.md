@@ -5,7 +5,7 @@ This will/can serve as a collaborative repository for any students who wishes to
 ***Note: all code here will be public domain, this repo is unlicensed - don't push anything here that you're uncomfortable with anyone else copying.***
 
 ---
-Here is a quick user-friendly (I hope) guide to using git.
+Here is a quick user-friendly (I hope) guide to using git. See also this [excellent guide](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/) on contributing to a `git` repository!
 
 ### Forking a repository
 
